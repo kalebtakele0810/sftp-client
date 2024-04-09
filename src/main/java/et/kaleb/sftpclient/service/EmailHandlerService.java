@@ -8,5 +8,6 @@ import java.io.File;
 
 
 public interface EmailHandlerService {
+
     boolean send(File files) throws JSchException, SftpException;
 }
